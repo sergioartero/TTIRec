@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/TTIRec/lib/TTISEFAZ_AD_ORACLE.jar.txt"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/TTISEFAZRec/src/USAR_ISTO_PARA_COMPACTAR.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/TTISEFAZRec/src/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.users.impl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.wsendpoint.jaxws"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.gov.sp.prefeitura.nfe"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.querier.eventoret"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.exceptions"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.contingence"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.contingence.impl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.security"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.cancelamento"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.signer.pkcs11"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.test"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.buffer"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.status.local"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.nfes.schemas.saopaulo.retornoconsulta"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.event.xml.classes"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.status"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.querier.nfse"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.consulta"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.resolve.inconsistencedb"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.recepcao"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.signer"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.cancelinut"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.systemconfig"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.main"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.nfev200"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.cache"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;nfeimpressao"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.event"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.printer.generator"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.ttisefaz.downloader.xml"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.saopaulo"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.event.xml.classes.ret"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.xmlgenerate.nfe"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.xmlgenerate.nfse"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.consultadest"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.connector"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.campinas"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.nfes.schemas.ginfes"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.messenger"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.dpec.classes"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;test"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.remote"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.taragona.nfe.gerenciador.wrapper"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.inutilizacao"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.xml.schema"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.manager"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.listeners"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.xmlgenerate"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.dispatch"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.axis"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.consulta.cte"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.ttirec.wsclient"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.downloader.xml"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.resolve.tryagain"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.resolve.tryagain.impl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.taragona.nfe.gerenciador"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.port"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.persistence"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.querier.dest"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.xmlgenerate.cte"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.nfes.schemas.saopaulo"/>
+        <folder path="/TTISEFAZRec/src/META-INF"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.mock"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.wsendpoint"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.nfev310.retreci"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.querier"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.externaldbaccess"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.printer.impl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.buffer.local"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.downloader"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.systemconfig.schema"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.printer"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.wrapper"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.classes.consultaevento"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.xml"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.xml"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.listeners.impl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.remote.events"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.licence"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.log"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;nfearaujo"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.tools"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.persistence.dao"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.users"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.util"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.sender.ssl"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.classes.retrecepcao"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.status"/>
+        <javaElement handleIdentifier="=TTISEFAZRec/src&lt;br.com.tti.sefaz.callback"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="TTIPU" transaction-type="RESOURCE_LOCAL">
+		<provider>
+			oracle.toplink.essentials.PersistenceProvider
+		</provider>
+		<class>br.com.tti.sefaz.persistence.XMLData</class>
+		<class>br.com.tti.sefaz.persistence.SetData</class>
+		<class>br.com.tti.sefaz.persistence.EventData</class>
+		<class>br.com.tti.sefaz.persistence.ConsultaDest</class>
+		<class>br.com.tti.sefaz.persistence.PFXFile</class>
+		<class>br.com.tti.sefaz.persistence.ModeOperationData</class>
+		<class>br.com.tti.sefaz.persistence.LogXML</class>
+		<class>br.com.tti.sefaz.persistence.StateSystem</class>
+		<class>br.com.tti.sefaz.users.User</class>
+		<class>br.com.tti.sefaz.users.Profile</class>
+		<class>br.com.taragona.nfe.persistence.Propriedades</class>
+		<properties>
+			<property name="toplink.logging.level" value="OFF" />
+			<property name="toplink.logging.session" value="false" />
+		</properties>
+	</persistence-unit>
+	<persistence-unit name="TTIPUHibernate"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>br.com.tti.sefaz.persistence.XMLData</class>
+		<class>br.com.tti.sefaz.persistence.SetData</class>
+		<class>br.com.tti.sefaz.persistence.EventData</class>
+		<class>br.com.tti.sefaz.persistence.PFXFile</class>
+		<class>br.com.tti.sefaz.persistence.LogXML</class>
+		<class>br.com.tti.sefaz.persistence.StateSystem</class>		
+		<class>br.com.tti.sefaz.persistence.ModeOperationData</class>
+		<class>br.com.tti.sefaz.users.User</class>
+		<class>br.com.tti.sefaz.users.Profile</class>
+		<class>br.com.taragona.nfe.persistence.Propriedades</class>
+		<properties>
+			<property name="toplink.logging.level" value="OFF" />
+			<property name="toplink.logging.session" value="false" />
+		</properties>
+	</persistence-unit>
+</persistence>

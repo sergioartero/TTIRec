@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_11"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/TTINFe/lib/extras/nfe/toplink-essentials-agent.jar"/>
+	<classpathentry kind="lib" path="C:/TTINFe/lib/extras/nfe/toplink-essentials.jar"/>
+	<classpathentry kind="lib" path="C:/TTINFe/lib/extras/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/TTINFe/lib/TTINFeClasses.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_71/lib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_71/lib/dt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

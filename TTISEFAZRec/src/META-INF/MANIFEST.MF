@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: ./axis/lib/axis.jar ./axis/lib/axis-ant.jar ./axis/lib/jax
+ rpc.jar ./axis/lib/commons-discovery-0.2.jar ./axis/lib/commons-loggi
+ ng-1.0.4.jar ./axis/lib/log4j-1.2.8.jar ./axis/lib/saaj.jar ./axis/li
+ b/wsdl4j-1.5.1.jar  

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="TTISEFAZRec">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../eclipse-rcp-indigo-SR2-win32-x86_64/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="TTISEFAZRec.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../../TTINFe/lib/extras/nfe/toplink-essentials-agent.jar"/>
+        <pathelement location="../../../TTINFe/lib/extras/nfe/toplink-essentials.jar"/>
+        <pathelement location="../../../TTINFe/lib/extras/mysql-connector-java-5.1.6-bin.jar"/>
+        <pathelement location="../../../TTINFe/lib/TTINFeClasses.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="CampinasSenderController">
+        <java classname="br.com.tti.sefaz.sender.campinas.CampinasSenderController" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="CheckLicence">
+        <java classname="br.com.tti.sefaz.licence.CheckLicence" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="Downloader">
+        <java classname="br.com.tti.sefaz.downloader.Downloader" failonerror="true" fork="yes">
+            <arg line="C:\TTIRec\certificados\RKMTRANSPORTES_15042015.pfx  67447409000121 35140805866683000188550010000013161000013160 C:\bb.xml"/>
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="DownloaderController">
+        <java classname="br.com.tti.sefaz.downloader.DownloaderController" failonerror="true" fork="yes">
+            <jvmarg line="-Djava.rmi.server.codebase=file:C:\TTIRec\lib\TTISEFAZHibDown.jar"/>
+            <arg line="C:\TTIRec\certificados\tome2013.pfx"/>
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="EventManagerImpl">
+        <java classname="br.com.tti.sefaz.event.EventManagerImpl" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="NFSeTest">
+        <java classname="test.NFSeTest" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="ParserXML310">
+        <java classname="br.com.tti.sefaz.test.ParserXML310" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="QuerierDestImpl">
+        <java classname="br.com.tti.sefaz.querier.dest.QuerierDestImpl" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="QuerierInstance">
+        <java classname="br.com.tti.sefaz.querier.QuerierInstance" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="QuerierRemoteImpl">
+        <java classname="br.com.tti.sefaz.querier.QuerierRemoteImpl" failonerror="true" fork="yes">
+            <jvmarg line="-Djava.rmi.server.codebase=file:C:\TTIRec\lib\TTISEFAZ.jar"/>
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="SenderDispatchController">
+        <java classname="br.com.tti.sefaz.sender.dispatch.SenderDispatchController" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="SorocabaTest">
+        <java classname="test.SorocabaTest" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="TestDown">
+        <java classname="br.com.tti.sefaz.test.TestDown" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="TTIWSEndpoint">
+        <java classname="br.com.tti.sefaz.wsendpoint.TTIWSEndpoint" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+    <target name="XMLConfigSystem (1)">
+        <java classname="br.com.tti.sefaz.systemconfig.XMLConfigSystem" failonerror="true" fork="yes">
+            <classpath refid="TTISEFAZRec.classpath"/>
+        </java>
+    </target>
+</project>
